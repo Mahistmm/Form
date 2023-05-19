@@ -1,0 +1,27 @@
+.header_nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 200px;
+  background-color: blue;
+}
+
+.nav_link {
+  border: 1px solid rgb(123, 118, 118);
+  border-radius: 999px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(229, 229, 229);
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav_link:hover {
+  background-color: rgb(121, 160, 238);
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px;
+}
